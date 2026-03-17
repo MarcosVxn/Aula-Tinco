@@ -17,3 +17,10 @@ if (tipoInstalação == 2 and kwhReceber <= 1000):
 elif (tipoInstalação == 2 and kwhReceber >1000):
     res = kwhReceber * 0.60
     print('valor a pagar {}'.format(res))
+
+if (tipoInstalação == 3 and kwhReceber <= 5000):
+    res = kwhReceber * 0.55
+    print('valor a pagar {}'.format(res))
+elif (tipoInstalação == 3 and kwhReceber >5000):
+    res = kwhReceber * 0.60
+    print('valor a pagar {}'.format(res))
