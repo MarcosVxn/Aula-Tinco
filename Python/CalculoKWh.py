@@ -1,0 +1,5 @@
+kwhReceber = int(input('Digite o KWh consumido: '))
+print('1 - Residencia')
+print('2 - Indústria')
+print('3 - comércio')
+tipoInstalação = int(input('Qual tipo de intalação: '))
